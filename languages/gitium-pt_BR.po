@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gitium\n"
+"POT-Creation-Date: 2014-10-20 19:06+0200\n"
+"PO-Revision-Date: 2022-01-18 14:45-0300\n"
+"Last-Translator: \n"
+"Language-Team: Presslabs <ping@presslabs.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../inc/class-gitium-submenu-configure.php:34
+#: ../inc/class-gitium-submenu-configure.php:44
+msgid "Git Configuration"
+msgstr "Configuração do Git"
+
+#: ../inc/class-gitium-submenu-configure.php:45
+msgid "Configuration"
+msgstr "Configuração"
+
+#: ../inc/class-gitium-submenu-configure.php:59
+msgid "Keypair successfully regenerated."
+msgstr "Keypair regerada com sucesso."
+
+#: ../inc/class-gitium-submenu-configure.php:78
+msgid "Initial commit"
+msgstr "Primeiro commit"
+
+#: ../inc/class-gitium-submenu-configure.php:94
+msgid "Please specify a valid repo."
+msgstr "Por favor, especifique um repositório válido."
+
+#: ../inc/class-gitium-submenu-configure.php:99
+msgid "Could not push to remote"
+msgstr "Não foi possível enviar para o remoto"
+
+#: ../inc/class-gitium-submenu-configure.php:113
+msgid "Merged existing code from "
+msgstr "Código existente mergeado de "
+
+#: ../inc/class-gitium-submenu-configure.php:116
+msgid "Could not create initial commit -> "
+msgstr "Não foi possível criar o commit inicial -> "
+
+#: ../inc/class-gitium-submenu-configure.php:120
+msgid "Could not merge the initial commit -> "
+msgstr "Não foi possível mergear  o commit inicial -> "
+
+#: ../inc/class-gitium-submenu-configure.php:129
+msgid "Remote URL"
+msgstr "URL Remota"
+
+#: ../inc/class-gitium-submenu-configure.php:132
+msgid ""
+"This URL provide access to a Git repository via SSH, HTTPS, or Subversion."
+msgstr ""
+"Essa URL fornece acesso a um repositório Git via SSH, HTTPS ou Subversion."
+
+#: ../inc/class-gitium-submenu-configure.php:133
+msgid ""
+"If you need to authenticate over \"https://\" instead of SSH use: "
+"<code>https://user:pass@github.com/user/example.git</code>"
+msgstr ""
+"Se você precisar autenticar por \"https://\" em vez de SSH, use: "
+"<code>https://user:pass@github.com/user/example.git</code>"
+
+#: ../inc/class-gitium-submenu-configure.php:143
+msgid "Key pair"
+msgstr "Key pair"
+
+#: ../inc/class-gitium-submenu-configure.php:147
+#: ../inc/class-gitium-submenu-settings.php:80
+msgid "Regenerate Key"
+msgstr "Regenerar chave"
+
+#: ../inc/class-gitium-submenu-configure.php:149
+#: ../inc/class-gitium-submenu-settings.php:81
+msgid ""
+"If your code use ssh keybased authentication for git you need to allow write "
+"access to your repository using this key."
+msgstr ""
+"Se o seu código usa autenticação baseada em chave ssh para git, você precisa "
+"permitir acesso de gravação ao seu repositório usando essa chave."
+
+#: ../inc/class-gitium-submenu-configure.php:150
+#: ../inc/class-gitium-submenu-settings.php:82
+msgid ""
+"Checkout instructions for <a href=\"https://help.github.com/articles/"
+"generating-ssh-keys#step-3-add-your-ssh-key-to-github\" target=\"_blank"
+"\">github</a> or <a href=\"https://confluence.atlassian.com/display/"
+"BITBUCKET/Add+an+SSH+key+to+an+account#AddanSSHkeytoanaccount-"
+"HowtoaddakeyusingSSHforOSXorLinux\" target=\"_blank\">bitbucket</a>."
+msgstr ""
+"Instruções de checkout para <a href=\"https://help.github.com/articles/"
+"generating-ssh-keys#step-3-add-your-ssh-key-to-github\" target=\"_blank"
+"\">github</a> ou <a href=\"https://confluence.atlassian.com/display/"
+"BITBUCKET/Add+an+SSH+key+to+an+account#AddanSSHkeytoanaccount-"
+"HowtoaddakeyusingSSHforOSXorLinux\" target=\"_blank\">bitbucket</a>."
+
+#: ../inc/class-gitium-submenu-configure.php:160
+msgid "Warning!"
+msgstr "Aviso!"
+
+#: ../inc/class-gitium-submenu-configure.php:174
+#: ../inc/class-gitium-help.php:47
+msgid "Configuration step 1"
+msgstr "Etapa de configuração 1"
+
+#: ../inc/class-gitium-submenu-configure.php:175
+#: ../inc/class-gitium-submenu-configure.php:194
+msgid ""
+"If you need help to set this up, please click on the \"Help\" button from "
+"the top right corner of this screen."
+msgstr ""
+"Se precisar de ajuda para configurar, clique no botão \"Ajuda\" no canto "
+"superior direito."
+
+#: ../inc/class-gitium-submenu-configure.php:183
+msgid "Fetch"
+msgstr "Fetch (Buscar)"
+
+#: ../inc/class-gitium-submenu-configure.php:193
+#: ../inc/class-gitium-help.php:52
+msgid "Configuration step 2"
+msgstr "Etapa de configuração 2"
+
+#: ../inc/class-gitium-submenu-configure.php:202
+msgid "Choose tracking branch"
+msgstr "Escolha o ramo de rastreamento"
+
+#: ../inc/class-gitium-submenu-configure.php:215
+msgid "Merge & Push"
+msgstr "Merge & Push"
+
+#: ../inc/class-gitium-submenu-status.php:32
+#: ../inc/class-gitium-submenu-status.php:42
+msgid "Git Status"
+msgstr "Status do Git"
+
+#: ../inc/class-gitium-submenu-status.php:43
+#: ../inc/class-gitium-submenu-status.php:209 ../inc/class-gitium-help.php:59
+msgid "Status"
+msgstr "Status"
+
+#: ../inc/class-gitium-submenu-status.php:53
+msgid "untracked"
+msgstr "untracked"
+
+#: ../inc/class-gitium-submenu-status.php:54
+msgid "modified on remote"
+msgstr "modified on remote"
+
+#: ../inc/class-gitium-submenu-status.php:55
+msgid "added to remote"
+msgstr "added to remote"
+
+#: ../inc/class-gitium-submenu-status.php:56
+msgid "deleted from remote"
+msgstr "deleted from remote"
+
+#: ../inc/class-gitium-submenu-status.php:57
+#: ../inc/class-gitium-submenu-status.php:61
+msgid "deleted from work tree"
+msgstr "deleted from work tree"
+
+#: ../inc/class-gitium-submenu-status.php:58
+msgid "updated in work tree"
+msgstr "updated in work tree"
+
+#: ../inc/class-gitium-submenu-status.php:59
+#: ../inc/class-gitium-submenu-status.php:60
+msgid "added to work tree"
+msgstr "added to work tree"
+
+#: ../inc/class-gitium-submenu-status.php:73
+#, php-format
+msgid "renamed from `%s`"
+msgstr "renamed from `%s`"
+
+#: ../inc/class-gitium-submenu-status.php:88
+#: ../inc/class-gitium-submenu-settings.php:106
+msgid "The file `.gitignore` is saved!"
+msgstr "O arquivo `.gitignore` foi salvo!"
+
+#: ../inc/class-gitium-submenu-status.php:90
+#: ../inc/class-gitium-submenu-settings.php:108
+msgid "The file `.gitignore` could not be saved!"
+msgstr "O arquivo `.gitignore` não pôde ser salvo!"
+
+#: ../inc/class-gitium-submenu-status.php:100
+msgid "Could not enable the maintenance mode!"
+msgstr "Não foi possível ativar o modo de manutenção!"
+
+#: ../inc/class-gitium-submenu-status.php:102
+#: ../inc/class-gitium-submenu-status.php:196
+#, php-format
+msgid "Merged changes from %s on %s"
+msgstr "[auto]: merged changes from %s on %s"
+
+#: ../inc/class-gitium-submenu-status.php:109
+msgid "Could not commit!"
+msgstr "Não foi possível commitar!"
+
+#: ../inc/class-gitium-submenu-status.php:114
+msgid "Merge failed: "
+msgstr "Falha ao mergear: "
+
+#: ../inc/class-gitium-submenu-status.php:116
+#, php-format
+msgid "Pushed commit: `%s`"
+msgstr "Commit enviado: `%s`"
+
+#: ../inc/class-gitium-submenu-status.php:125
+#, php-format
+msgid "Following remote branch <code>%s</code>."
+msgstr "Seguindo a remote branch <code>%s</code>."
+
+#: ../inc/class-gitium-submenu-status.php:127
+msgid "Everything is up to date"
+msgstr "Tudo está atualizado"
+
+#: ../inc/class-gitium-submenu-status.php:130
+#, php-format
+msgid "You are %s commits ahead and %s behind remote."
+msgstr "Você está %s commits à frente e %s atrás remote."
+
+#: ../inc/class-gitium-submenu-status.php:132
+#, php-format
+msgid "You are %s commits ahead remote."
+msgstr "Você está %s commits à frente do remote."
+
+#: ../inc/class-gitium-submenu-status.php:134
+#, php-format
+msgid "You are %s commits behind remote."
+msgstr "Você está %s commits atrás do remote."
+
+#: ../inc/class-gitium-submenu-status.php:160
+msgid "Add this file to the `.gitignore` list."
+msgstr "Adicione este arquivo à lista `.gitignore`."
+
+#: ../inc/class-gitium-submenu-status.php:163
+msgid "Submodules are not supported in this version."
+msgstr "Os submódulos não são suportados nesta versão."
+
+#: ../inc/class-gitium-submenu-status.php:175
+#: ../inc/class-gitium-submenu-status.php:176
+msgid "Path"
+msgstr "Caminho"
+
+#: ../inc/class-gitium-submenu-status.php:175
+#: ../inc/class-gitium-submenu-status.php:176
+msgid "Change"
+msgstr "Mudar"
+
+#: ../inc/class-gitium-submenu-status.php:181
+msgid "Nothing to commit, working directory clean."
+msgstr "Nada para commitar, diretório de trabalho limpo."
+
+#: ../inc/class-gitium-submenu-status.php:195
+msgid "Commit message"
+msgstr "Mensagem do commit"
+
+#: ../inc/class-gitium-submenu-status.php:199
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: ../inc/class-gitium-submenu-status.php:209
+msgid "connected to"
+msgstr "conectado a"
+
+#: ../inc/class-gitium-submenu-settings.php:32 ../inc/class-gitium-help.php:81
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../inc/class-gitium-submenu-settings.php:46
+msgid ""
+"Webhook URL regenerates. Please make sure you update any external references."
+msgstr ""
+"O URL do webhook foi regenerada. Certifique-se de atualizar quaisquer "
+"referências externas."
+
+#: ../inc/class-gitium-submenu-settings.php:55
+msgid "Public key successfully regenerated."
+msgstr "Chave pública regenerada com sucesso."
+
+#: ../inc/class-gitium-submenu-settings.php:61
+msgid "Webhook URL"
+msgstr "URL do webhook"
+
+#: ../inc/class-gitium-submenu-settings.php:65
+msgid "Regenerate Webhook"
+msgstr "Regenerar Webhook"
+
+#: ../inc/class-gitium-submenu-settings.php:67
+msgid "Pinging this URL triggers an update from remote repository."
+msgstr "Faça um ping nessa URL para uma atualização do repositório remoto."
+
+#: ../inc/class-gitium-submenu-settings.php:77
+msgid "Public Key"
+msgstr "Chave pública"
+
+#: ../inc/class-gitium-submenu-settings.php:116
+msgid "Gitium Settings"
+msgstr "Configurações do Gitium"
+
+#: ../inc/class-gitium-submenu-settings.php:121
+msgid "Be careful when you modify this list!"
+msgstr "Tenha cuidado ao modificar esta lista!"
+
+#: ../inc/class-gitium-submenu-settings.php:126
+msgid "Save"
+msgstr "Salvar"
+
+#: ../inc/class-gitium-help.php:26
+msgid "Gitium"
+msgstr "Gitium"
+
+#: ../inc/class-gitium-help.php:27
+msgid "F.A.Q."
+msgstr "F.A.Q."
+
+#: ../inc/class-gitium-help.php:32
+msgid ""
+"Gitium enables continuous deployment for WordPress integrating with tools "
+"such as Github, Bitbucket or Travis-CI. Plugin and theme updates, installs "
+"and removals are automatically versioned."
+msgstr ""
+"O Gitium permite a implantação contínua do WordPress integrando-se a "
+"ferramentas como Github, Bitbucket ou Travis-CI. Atualizações, instalações e "
+"remoções de plugins e temas são automaticamente versionadas."
+
+#: ../inc/class-gitium-help.php:33
+msgid ""
+"Ninja code edits from the WordPress editor are also tracked into version "
+"control. Gitium is designed for sane development environments."
+msgstr ""
+"As edições de código no editor do WordPress também são rastreadas no "
+"controle de versão. O Gitium foi projetado para ambientes de desenvolvimento."
+
+#: ../inc/class-gitium-help.php:34
+msgid ""
+"Staging and production can follow different branches of the same repository. "
+"You can deploy code simply trough git push."
+msgstr ""
+"Ambientes de stagings e produção podem seguir diferentes branches no mesmo "
+"repositório. Você pode implantar o código simplesmente por meio do git push."
+
+#: ../inc/class-gitium-help.php:35
+msgid ""
+"Gitium requires <code>git</code> command line tool minimum version 1.7 "
+"installed on the server and <code>proc_open</code> PHP function enabled."
+msgstr ""
+"O Gitium requer o componente <code>git</code> na versão mínima 1.7 instalada "
+"no servidor e a função PHP <code>proc_open</code> habilitada."
+
+#: ../inc/class-gitium-help.php:39
+msgid "Is this plugin considered stable?"
+msgstr "Este plugin é considerado estável?"
+
+#: ../inc/class-gitium-help.php:39
+msgid ""
+"Right now this plugin is considered alpha quality and should be used in "
+"production environments only by adventurous kinds."
+msgstr ""
+"No momento, este plugin é considerado em alpha e deve ser usado em ambientes "
+"de produção apenas por curiosidade."
+
+#: ../inc/class-gitium-help.php:40
+msgid "What happens in case of conflicts?"
+msgstr "O que acontece em caso de conflitos?"
+
+#: ../inc/class-gitium-help.php:40
+msgid ""
+"The behavior in case of conflicts is to overwrite the changes on the origin "
+"repository with the local changes (ie. local modifications take precedence "
+"over remote ones)."
+msgstr ""
+"Em caso de conflitos irá sobrescrever as alterações no repositório de origem "
+"com as alterações locais (ou seja, as modificações locais têm precedência "
+"sobre as remotas)."
+
+#: ../inc/class-gitium-help.php:41
+msgid "How to deploy automatically after a push?"
+msgstr "Como implantar automaticamente após um push?"
+
+#: ../inc/class-gitium-help.php:41
+msgid ""
+"You can ping the webhook url after a push to automatically deploy the new "
+"code. The webhook url can be found under Code menu. This url plays well with "
+"Github or Bitbucket webhooks."
+msgstr ""
+"Você pode fazer ping na URL do webhook após um push para implantar "
+"automaticamente o novo código. O URL do webhook pode ser encontrado no menu "
+"Configurações. Esta URL funciona bem com os webhooks do Github ou Bitbucket."
+
+#: ../inc/class-gitium-help.php:42
+msgid "Does it works on multi site setups?"
+msgstr "Funciona em configurações de multisite?"
+
+#: ../inc/class-gitium-help.php:42
+msgid "Gitium is not supporting multisite setups at the moment."
+msgstr "O Gitium não suporta configurações multisite no momento."
+
+#: ../inc/class-gitium-help.php:43
+msgid "How does gitium handle submodules?"
+msgstr "Como o gitium lida com submódulos?"
+
+#: ../inc/class-gitium-help.php:43
+msgid "Currently submodules are not supported."
+msgstr "Atualmente os submódulos não são suportados."
+
+#: ../inc/class-gitium-help.php:47
+msgid ""
+"In this step you must specify the <code>Remote URL</code>. This URL "
+"represents the link between the git sistem and your site."
+msgstr ""
+"Nesta etapa você deve especificar o <code>URL Remoto</code>. Este URL "
+"representa o link entre o sistema git e seu site."
+
+#: ../inc/class-gitium-help.php:48
+msgid "You can get this URL from your Git repository and it looks like this:"
+msgstr "Você pode obter este URL do seu repositório Git e se parece com isso:"
+
+#: ../inc/class-gitium-help.php:49
+msgid "github.com -> git@github.com:user/example.git"
+msgstr "github.com -> git@github.com:user/example.git"
+
+#: ../inc/class-gitium-help.php:50
+msgid "bitbucket.org -> git@bitbucket.org:user/glowing-happiness.git"
+msgstr "bitbucket.org -> git@bitbucket.org:user/glowing-happiness.git"
+
+#: ../inc/class-gitium-help.php:51
+msgid ""
+"To go to the next step, fill the <code>Remote URL</code> and then press the "
+"<code>Fetch</code> button."
+msgstr ""
+"Para ir para a próxima etapa, preencha o <code>URL Remoto</code> e pressione "
+"o botão <code>Buscar (Fetch)</code>."
+
+#: ../inc/class-gitium-help.php:52
+msgid ""
+"In this step you must select the <code>branch</code> you want to follow."
+msgstr "Nesta etapa você deve selecionar o <code>branch</code> que deseja."
+
+#: ../inc/class-gitium-help.php:53
+msgid "Only this branch will have all of your code modifications."
+msgstr "Somente esta branch terá todas as suas modificações de código."
+
+#: ../inc/class-gitium-help.php:54
+msgid ""
+"When you push the button <code>Merge & Push</code>, all code(plugins & "
+"themes) will be pushed on the git repository."
+msgstr ""
+"Quando você pressiona o botão <code>Merge & Push</code>, todo o código "
+"(plugins e temas) será enviado para o repositório git."
+
+#: ../inc/class-gitium-help.php:64
+msgid ""
+"On status page you can see what files are modified, and you can commit the "
+"changes to git."
+msgstr ""
+"Na página de status, você pode ver quais arquivos foram modificados e pode "
+"confirmar as alterações no git."
+
+#: ../inc/class-gitium-help.php:69 ../inc/class-gitium-submenu-commits.php:29
+#: ../inc/class-gitium-submenu-commits.php:41
+msgid "Commits"
+msgstr "Commits"
+
+#: ../inc/class-gitium-help.php:74
+msgid ""
+"You may be wondering what is the difference between author and committer."
+msgstr ""
+"Você pode estar se perguntando qual é a diferença entre autor e committer."
+
+#: ../inc/class-gitium-help.php:75
+msgid ""
+"The <code>author</code> is the person who originally wrote the patch, "
+"whereas the <code>committer</code> is the person who last applied the patch."
+msgstr ""
+"O <code>autor</code> é a pessoa que escreveu originalmente o patch, enquanto "
+"o <code>committer</code> é a pessoa que aplicou o patch pela última vez."
+
+#: ../inc/class-gitium-help.php:76
+msgid ""
+"So, if you send in a patch to a project and one of the core members applies "
+"the patch, both of you get credit — you as the author and the core member as "
+"the committer."
+msgstr ""
+"Portanto, se você enviar um patch para um projeto e um dos membros "
+"principais aplicar o patch, ambos receberão crédito - você como autor e o "
+"membro principal como committer."
+
+#: ../inc/class-gitium-help.php:86
+msgid "Each line from the gitignore file specifies a pattern."
+msgstr "Cada linha do arquivo gitignore especifica um padrão."
+
+#: ../inc/class-gitium-help.php:87
+msgid ""
+"When deciding whether to ignore a path, Git normally checks gitignore "
+"patterns from multiple sources, with the following order of precedence, from "
+"highest to lowest (within one level of precedence, the last matching pattern "
+"decides the outcome)"
+msgstr ""
+"Ao decidir ignorar um caminho, o Git normalmente verifica os padrões "
+"gitignore de várias fontes, com a seguinte ordem de precedência, do maior "
+"para o menor (dentro de um nível de precedência, o último padrão "
+"correspondente decide o resultado)"
+
+#: ../inc/class-gitium-help.php:88
+#, php-format
+msgid "Read more on %s"
+msgstr "Leia mais em %s"
+
+#: ../inc/class-gitium-submenu-commits.php:28
+msgid "Git Commits"
+msgstr "Commits do Git"
+
+#: ../inc/class-gitium-submenu-commits.php:61
+#, php-format
+msgid "Last %s commits"
+msgstr "Últimos %s commits"
+
+#: ../inc/class-gitium-submenu-commits.php:70
+#, php-format
+msgid "committed %s ago"
+msgstr "commitado  %s atrás"
+
+#: ../inc/class-gitium-submenu-commits.php:82
+#, php-format
+msgid "authored %s ago"
+msgstr "criado %s atrás"
